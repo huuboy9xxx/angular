@@ -1,0 +1,10 @@
+<td>1</td>
+<td>{{user.name}}</td>
+<td>{{user.age}}</td>
+<td>{{user.status}}</td>
+<td><span class="button is-small btn-primary" *ngIf='user.status' (click)='updateStatus(false)'>Inactive</span></td>
+<td><span class="button is-small btn-primary" *ngIf='!user.status' (click)='updateStatus(true)'>Active</span></td>
+<td><span class="button is-small btn-danger" (click)='deleteUser()'>Delete</span></td> 
+    
+   
+    

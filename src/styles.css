@@ -1,0 +1,51 @@
+@media only screen and (max-width: 768px) {
+    #navbar-menu .navbar-btn{
+        padding: 0 !important;
+    }
+    #wrapper #sidebar-nav, #wrapper .main {
+        padding-top: 52px !important;
+    }
+  }
+  .stavatar{
+      position: relative;
+      width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .avatarI {
+    vertical-align: middle;
+    width: 14.5rem;
+    height: 14.5rem;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  .avatarI:hover{
+      opacity: .5;
+  }
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+}
+
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+.eyePS{
+    position: absolute;
+    right: 10px;
+    bottom: 6px;
+    cursor: pointer;
+}
+#eyePassword:hover{
+    color: red !important;
+}
+
+.dlUStyle, .viewUStyle{
+  cursor: pointer;
+}
+.dlUStyle:hover, .viewUStyle:hover{
+  color: plum;
+}
+
