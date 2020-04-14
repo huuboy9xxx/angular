@@ -8,7 +8,7 @@ import { AngularFireModule } from '@angular/fire';
 import { AngularFireDatabaseModule } from '@angular/fire/database';
 import { AngularFireStorageModule } from '@angular/fire/storage';
 
-import { environment } from '../environments/environment';
+import { environment } from 'src/environments/environment';
 import { FormsModule } from '@angular/forms';
 import { DetailsUserComponent } from './blocks/details-user/details-user.component';
 import { CreateUserComponent } from './blocks/create-user/create-user.component';
